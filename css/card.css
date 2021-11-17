@@ -1,0 +1,55 @@
+.workcard{
+    margin-top: 30px;
+    height: 350px;
+    transition: 0.3s;
+    background-color: #003049;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.workfooter
+{
+  height: auto;
+  width: auto;
+  text-align: center;
+  background-color: #transparent;
+}
+
+.workcard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+    background-color: #transparent;
+  }
+
+.workcardcontainer {
+    padding: 15px 15px;
+    height: auto;
+
+  }
+
+  .projectcard {
+    margin-top: 30px;
+    height: auto;
+    width: auto;
+    transition: 0.3s;
+    background-color: #003049;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .pcardcontainer {
+      padding: 15px 15px;
+      height: auto;
+
+    }
+
+    .project-img{
+
+    }
+
+    .project-img:hover{
+      
+    }

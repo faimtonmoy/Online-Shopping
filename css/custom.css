@@ -1,0 +1,102 @@
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.6s;
+  margin-bottom: 15px;
+}
+
+.alert.success {background-color: #4CAF50;}
+.alert.info {background-color: #2196F3;}
+.alert.warning {background-color: #ff9800;}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+.tab-pane{
+  color: #FFFFFF;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    margin-top: 30px;
+    height: auto;
+    transition: 0.3s;
+    background-color: #9CD2FF;
+    border-radius: 25px;
+
+}
+
+.cardheader
+{
+  height: auto;
+  width: auto;
+  text-align: center;
+  background-color: #557188;
+  color: #FFFFFF;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+    background-color: #9CD2FF;
+    color:#000000;
+  }
+
+.cardcontainer {
+    padding: 30px 30px;
+    height: auto;
+
+  }
+
+canvas{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.mybtn{
+  color: #00FFFF;
+  height: 60px;
+  font-size: 18px;
+justify-content: center;
+background: transparent;
+border: 2px solid #00FFFF;
+}
+
+.mybtn:hover{
+  color: #f44336;
+  justify-content: center;
+  background: #FFFFFF;
+  border: 2px solid #f44336;
+  transition: 0.8s;
+}
+
+.ddbtn{
+  color: #00FFFF;
+  width: 200px;
+  height: 40px;
+  font-size: 18px;
+  justify-content: center;
+  background: transparent;
+}
+.ddbtn:hover{
+  color: #f44336;
+  justify-content: center;
+  background: #FFFFFF;
+  transition: 0.8s;
+}
